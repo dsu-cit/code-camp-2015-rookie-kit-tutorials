@@ -31,7 +31,7 @@ to run and change the game.
 ### Test your system to verify python and pygame work.
 	
 *	Download and run [pygame_check.py](pygame_check.py)
-*	If you see the following window with Code Camp messages, your system is working<br>![PyGame Check](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/assets/images/pygame_check.png)
+*	If you see the following window with Code Camp messages, your system is working<br>![PyGame Check](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/blob/master/assets/images/pygame_check.png)
 
 
 ## Download the Starter Code
