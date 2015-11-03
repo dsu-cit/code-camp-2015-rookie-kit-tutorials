@@ -41,7 +41,7 @@ Rookie Kit](rookie-kit.zip)
 
 ## Tutorials
 
-[Rookie Kit Tutorials](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/tutorials)
+[Rookie Kit Tutorials](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/tree/master/tutorials)
 
 
 ## Disucssions
