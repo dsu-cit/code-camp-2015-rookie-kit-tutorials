@@ -1,6 +1,5 @@
 # Code Camp Rookie Kit
 
---------------------------------------------------
 
 ## Setup
 
@@ -34,19 +33,16 @@ to run and change the game.
 *	Download and run [pygame_check.py](pygame_check.py)
 *	If you see the following window with Code Camp messages, your system is working<br>![PyGame Check](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/assets/images/pygame_check.png)
 
---------------------------------------------------
 
 ## Download the Starter Code
 
 Rookie Kit](rookie-kit.zip)
 
---------------------------------------------------
 
 ## Tutorials
 
 [Rookie Kit Tutorials](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/tutorials)
 
---------------------------------------------------
 
 ## Disucssions
 
