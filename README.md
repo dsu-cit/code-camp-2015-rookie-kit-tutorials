@@ -36,7 +36,7 @@ to run and change the game.
 
 ## Download the Starter Code
 
-Rookie Kit](rookie-kit.zip)
+[Rookie Kit](rookie-kit.zip)
 
 
 ## Tutorials
