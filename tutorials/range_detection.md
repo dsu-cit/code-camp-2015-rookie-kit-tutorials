@@ -2,15 +2,15 @@
 
 ## Difficulty: Very Easy
 
-A very simple but useful display for you game is adding a simple circle around each player to display the range their missiles can travel. Using the [pygame.draw.circle](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) function, you can easily add a circle that looks like the following image. That way you know how far yours or an opponents missiles can travel.
+A very simple but useful display for you game is adding a simple circle around each player to display the range their missiles can travel. Using the [pygame.draw.circle](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) function, you can easily add a circle that looks like the following image. That way you know how far your's and/or an opponent's missiles can travel.
 
 ![Range Detection](../assets/images/range_detection.png)
 
-Do do this you need to open up the display file located at *client_pygame > display > display.py* and locate the `paint_player()` method.
+To do this you need to open up the display.py file located at *client_pygame > display > display.py* and modify the `paint_player()` method.
 
 ### 1. Get the center point of the player
 
-This method receives the player object as the parameter `obj` which we will use to grab the center point coordinates. Then convert them to integers **(the pygame.draw.circle function can not handle floats)**.
+The `paint_player(self, surface, engine, control, obj)` method receives the player object as its 5th parameter--`obj` which we will use to grab the center point coordinates. Then convert them to integers **(the pygame.draw.circle function can not handle floats)**.
 
 	(x, y) = obj.get_center()
 	x = int(x)
