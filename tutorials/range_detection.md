@@ -16,7 +16,7 @@ The `paint_player(self, surface, engine, control, obj)` method receives the play
 	x = int(x)
 	y = int(y)
 
-***Note:** if that doesn't work you can do the same thing by grabbing the players x and y point position, and their width and height measurements as follows.*
+* **Note:** if that doesn't work you can do the same thing by grabbing the players x and y point position, and their width and height measurements as follows.*
 
 	x = obj.get_px() + obj.get_pw()/2
 	y = obj.get_py() + obj.get_ph()/2
