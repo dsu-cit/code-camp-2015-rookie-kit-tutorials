@@ -23,13 +23,13 @@ _**Note:** if that doesn't work you can do the same thing by grabbing the player
 
 ### 2. Get the missile range of the player
 
-Using the player object `obj` we can get the missile range as follows. Remember to convert an integer or pygame will crash.
+Using the player object `obj` we can get the missile range as follows. Remember to convert it to an integer or pygame will crash.
 
 	missle_range = int( obj.get_missile_range() )
 
 ### 3. Draw the circle
 
-Once we have the center position and the range we have everything we need to draw a circle. The `surface` was provided to us by as a parameter and we can just use the `color` that was provided to us. *You can create your own color as a tuple with RGB values*. 
+Once we have the center position and the range we have everything we need to draw a circle. The `surface` was provided to us as a parameter and we can just use the `color` that was previously calculated for us. *You can create your own color as a tuple with RGB values. `(255, 255, 255)` would be white.*. 
 
 	pygame.draw.circle(surface, color, (x,y), missle_range, 1)
 
