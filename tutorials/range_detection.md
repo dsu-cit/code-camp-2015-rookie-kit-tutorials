@@ -10,11 +10,11 @@ To do this you need to open up the display.py file located at *client_pygame > d
 
 ### 1. Get the center point of the player
 
-The `paint_player(self, surface, engine, control, obj)` method receives the player object as its 5th parameter--`obj` which we will use to grab the center point coordinates. Then convert them to integers **(the pygame.draw.circle function can not handle floats)**.
+The `paint_player(self, surface, engine, control, obj)` method receives the player object as its 5th parameter--`obj` which we will use to grab the center point coordinates. Then convert them to integers, make sure you round them first so it goes to the closest integer instead of only truncating them. **(the pygame.draw.circle function can not handle sub pixel measurements)**.
 
 	(x, y) = obj.get_center()
-	x = int(x)
-	y = int(y)
+	x = int( round(x) )
+	y = int( round(y) )
 
 _**Note:** if that doesn't work you can do the same thing by grabbing the players x and y point position, and their width and height measurements as follows._
 
@@ -25,7 +25,7 @@ _**Note:** if that doesn't work you can do the same thing by grabbing the player
 
 Using the player object `obj` we can get the missile range as follows. Remember to convert it to an integer or pygame will crash.
 
-	missle_range = int( obj.get_missile_range() )
+	missle_range = int( round(obj.get_missile_range()) )
 
 ### 3. Draw the circle
 
@@ -38,7 +38,7 @@ Once we have the center position and the range we have everything we need to dra
 I added all of the code from above inside the `obj.is_alive()` if statement just after the `pygame.draw.rect()` that draws the player.
 
 	(x, y) = obj.get_center()
-	x = int(x)
-	y = int(y)
-	missle_range = int( obj.get_missile_range() )
+	x = int( round(x) )
+	y = int( round(y) )
+	missle_range = int( round(obj.get_missile_range()) )
 	pygame.draw.circle(surface, color, (x,y), missle_range, 1)
