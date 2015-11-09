@@ -4,7 +4,9 @@ In most games the player's movement is controlled with W, A, S, and D instead of
 
 We can easily implement this by updating our `game_input_controls` method in the *client_pygame > control > control.py* file.
 
-I started by deleting all the default controls except the `pygame.K_SPACE` which fires the missile when you hit the spacebar, and the `pygame.K_i` key which toggles the game information on and off when you hit the letter i. You might want to comment out all of the code rather than deleting it so you can come back later and use it as a reference. The following code is what I deleted from the `game_input_controls` method.
+I started by deleting all the default controls except the `pygame.K_SPACE` which fires the missile when you hit the spacebar, and the `pygame.K_i` key which toggles the game information on and off when you hit the letter i. You might want to comment out all of the code rather than deleting it so you can come back later and use it as a reference.
+
+The following code is what I deleted from the `game_input_controls` method.
 
     if pygame.K_UP in newkeys:
         engine.set_player_direction(270)
@@ -62,6 +64,6 @@ The following is what I added in its place.
     else:
         engine.set_player_speed_stop()
 
-I added the `degrees` variable so I could define my starting direction. I assigned it the value `270` because I want my player to move forward when I push `w`, left when I push `a`, down when I push `s`, and right when I push `d`. This also sets things up so we calculate a direction in degrees and update that value easily. See [Mouse Steering](mouse_steering.md) for more information on controlling the rotation of your player.
-
 **Note:** You will notice I used the `keys` parameter instead of the `newkeys` parameter. This checks to make sure the letter w is being pressed down, where `newkeys` checks for any new keys might have been pressed since the last loop. We need to use `keys` to check for any key that might be held down for an extended period or the method will stop checking for them.
+
+I added the `degrees` variable so I could define my starting direction. I assigned it the value `270` because I want my player to move forward when I push `w`, left when I push `a`, down when I push `s`, and right when I push `d`. All you need to do is add the additional degrees (90, 180, 270) to the players direction _(The degrees variable)_. Since we are adding additional degrees to the previous amount we need to make sure our rotation is still in the range `0-360` by doing a modulus of 360. This also sets things up so we calculate a direction in degrees and update that value easily. See [Mouse Steering](mouse_steering.md) for more information on controlling the rotation of your player.
