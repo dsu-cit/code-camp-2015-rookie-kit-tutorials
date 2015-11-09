@@ -10,41 +10,9 @@ In this tutorial we will show how to update your player controls to enable steer
 
 [![Mouse Steering Video](../assets/images/mouse_steering_video.png)](http://www.youtube.com/watch?v=8Z2SukeupgA "Code Camp Rookie Kit - Mouse Steering Example")
 
-### Explanation
+### Calculating the angle of rotation
 
-We need a couple bits of information in order to calculate the direction we want to travel. We need the starting position (`x1,y1`) and the position we want to travel towards (`x2,y2`). In our case we will use the player's current position for x1,y1 and the mouse position for x2,y2.
-
-Next we need to calculate the change between the x and y positions. This is often referred to as `dx,dy`. They are calculated separately by taking the position we want to move towards and subtracting the current position. See the image for an illustrated explanation.
-
-	dx = x2 - x1
-	dy = y2 - y1
-
-![Calculate dx and dy](../assets/images/mouse_steering_1.png)
-
-Once you have the dx and dy values you can calculate the angle in radians fairly easy. It is usually calculated as atan(dy / dx) but in python we can use the [math.atan2](https://docs.python.org/2/library/math.html#math.atan2) function.
-
-	radians = math.atan2(dy, dx)
-
-_**NOTE:** This will require that you import the math library in your control.py file using `import math`._
-
-We need to make sure we convert the radians for a full circle. So we need to divide the radians by 2&pi; and keep the remainder, or in other words take radians % 2&pi;. In python &pi; can be represented as [math.pi](https://docs.python.org/2/library/math.html#math.pi).
-
-	radians = radians % 2 * math.pi
-
-Finally we can convert from radians to degrees using the [math.degrees](https://docs.python.org/2/library/math.html#math.degrees) function.
-
-	degrees = math.degrees(radians)
-
-So after working through all that we are left with the following.
-
-	import math
-
-	dx = x2 - x1
-	dy = y2 - y1
-	radians = math.atan2(dy, dx)
-	radians = radians % 2 * math.pi
-	degrees = math.degrees(radians)
-
+We will need to calculate the angle in degrees from our player to the mouse position. You can learn how to do this by reading the ["Calculating Degrees From Two Points" Tutorial](calculate_degrees.md) which teaches how to calculate angles in radians and degrees using 2 points (x1,y1 and x2,y2). In our case we will use the player's current position for x1,y1 and the mouse position for x2,y2.
 
 ## Implementation
 
@@ -115,51 +83,3 @@ I added these updates before checking any keyboard input so we can use the new m
 
 			engine.set_missile_direction(degrees)
 			engine.set_player_direction(degrees)
-
-## Additional Features.
-
-### Moving and Stopping with "w"
-
-I don't personally like having to push "1" to stop my guy and "2" to start moving. I would rather hold "w" to move forward and automatically stop moving when I release "w".
-
-To do this, I deleted the following code from the `game_input_controls` method.
-
-	if pygame.K_1 in newkeys:
-        engine.set_player_speed_stop()
-    elif pygame.K_2 in newkeys:
-        engine.set_player_speed_slow()
-        
-    if pygame.K_q in newkeys:
-        engine.set_missile_range_none()
-    elif pygame.K_w in newkeys:
-        engine.set_missile_range_short()
-
-and added this in its place.
-
-	if pygame.K_w in keys:
-		engine.set_player_speed_slow()
-	else:
-		engine.set_player_speed_stop()
-
-**Note:** You will notice I used the `keys` parameter instead of the `newkeys` parameter. This checks to make sure the letter w is being pressed down, where `newkeys` checks for any new keys might have been pressed since the last loop. We need to use `keys` to check for any key that might be held down for an extended period or the method will stop checking for them.
-
-### Reversing and Strafing
-
-We can easily map Reversing and Strafing controls to the standard WASD. All you need to do is add the additional degrees (90, 180, 270) to the players direction _(The degrees we calculated above)_. Since we are adding additional degrees to the previous amount we need to make sure our rotation is still in the range `0-360` by doing a modulus of 360. We will use the `keys` parameter because each of these keys might be held down.
-
-	if pygame.K_w in keys: #forward
-		engine.set_player_direction( degrees )
-		engine.set_player_speed_slow()
-	elif pygame.K_d in keys: #right
-		engine.set_player_direction( (degrees + 90) % 360 )
-		engine.set_player_speed_slow()
-	elif pygame.K_s in keys: #reverse
-		engine.set_player_direction( (degrees + 180) % 360 )
-		engine.set_player_speed_slow()
-	elif pygame.K_a in keys: #left
-		engine.set_player_direction( (degrees + 270) % 360 )
-		engine.set_player_speed_slow()
-	else:
-		engine.set_player_speed_stop()
-
-Now if we hold `w` our player will move towards our mouse, `s` will move away from the mouse, `a` with strafe left _(considering mouse forward)_, and `d` will strafe right _(considering mouse forward)_. But if we fire our missiles they will continue to fire towards the direction of our mouse.
