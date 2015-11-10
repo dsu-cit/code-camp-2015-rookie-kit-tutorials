@@ -1,0 +1,69 @@
+Philosophy of Tutorials
+-----------------------
+
+1- help newbies and beginners feel empowered by
+   making small but immediately observable
+   changes
+2- don't take away creativity or achievement
+   by giving too much
+3- guide mid and high level functionality with
+   hints and suggestions of some things that
+   may be possible
+
+
+Desired Tutorials
+------------------
+
+`client_pygame/main.py`
+
+- How to run the game
+- How to play with the default controls
+- What the game is
+- What the display is showing
+
+`client_pygame/control/control.py`
+
+- Where to make keyboard control changes for the game
+- How to find the correct `pygame.K_` symbol
+- Difference between `keys` and `newkeys`
+- Motion commands available/descriptions   (based on comments in engine_client/game_engine.py)
+- Missile commands available/descriptions  (based on comments in engine_client/game_engine.py)
+- Pre-game control options
+- game_control hints.  No actual code.
+- What the mouse coordinates are.
+
+`client_pygame/config.py`
+
+- Meanings of existing configuration parameters
+- Example of adding one simple configuration parameter
+- Suggestion that configuration parameters could be useful
+
+`client_pygame/display/display.py`
+
+- Where to make changes for the display
+- Change color of background
+- Change color of player
+- Change color of other objects hint
+- Frame-to-frame model (must redraw everything every time)
+- `paint_game_status` location
+- How to load/blit image (hint for player, suggest others)
+- How to play background music ()
+- How to play sound file ()
+- `paint_pregame` purpose
+- `paint_waiting_for_game` purpose
+- `paint_game_over` purpose
+- `process_event` purpose (hint at use for sound)
+
+
+
+
+
+
+Undesired Tutorials
+-------------------
+
+- Too much copy/paste code
+- Too much complexity
+- Too advanced features
+- Combination of features
+- Dependencies
