@@ -1,0 +1,1 @@
+# File: common/object.py
