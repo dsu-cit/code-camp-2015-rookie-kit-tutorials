@@ -16,10 +16,10 @@ Desired Tutorials
 
 `client_pygame/main.py`
 
-- How to run the game
-- How to play with the default controls
-- What the game is
-- What the display is showing
+- How to run the game -- In README.md
+- How to play with the default controls -- In README.md
+- What the game is -- In README.md
+- What the display is showing -- In README.md
 
 `client_pygame/control/control.py`
 
