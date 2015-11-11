@@ -7,7 +7,6 @@
 *	[client_pygame/config.py](other/client_pygame/config.md)
 *	[client_pygame/control/control.py](other/client_pygame/control.md)
 *	[client_pygame/display/display.py](other/client_pygame/display.md)
-*	[client_pygame/main.py](other/client_pygame/main.md)
 *	[common/event.py](other/common/event.md)
 *	[common/missile.py](other/common/missile.md)
 *	[common/object.py](other/common/object.md)
