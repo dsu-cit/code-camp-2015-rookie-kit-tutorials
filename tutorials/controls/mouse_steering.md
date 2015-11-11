@@ -10,7 +10,7 @@ In this tutorial we will show how to update your player controls to enable steer
 
 ### Calculating the angle of rotation
 
-We will need to calculate the angle in degrees from our player to the mouse position. You can learn how to do this by reading the ["Calculating Degrees From Two Points" Tutorial](calculate_degrees.md) which teaches how to calculate angles in radians and degrees using 2 points (x1,y1 and x2,y2). In our case we will use the player's current position for x1,y1 and the mouse position for x2,y2.
+We will need to calculate the angle in degrees from our player to the mouse position. You can learn how to do this by reading the ["Calculating Degrees From Two Points" Tutorial](../other/calculate_degrees.md) which teaches how to calculate angles in radians and degrees using 2 points (x1,y1 and x2,y2). In our case we will use the player's current position for x1,y1 and the mouse position for x2,y2.
 
 ## Implementation
 
