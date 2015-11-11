@@ -39,50 +39,9 @@ to run and change the game.
 [Rookie Kit](2015-thumbdrive-contents/rookie-kit.zip?raw=true)
 
 
-## Running the Game
+## Getting Started
 
-You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers from above, you can open the main.py file with IDLE and then "Run" the program.
-
-
-### The controls
-
-When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing a direction key. To start the player moving you push the 2 key, and to stop you press 1.
-
-You may change and customize the controls however you want. Below is a list of how programmed by default.
-
-*	`UP` changes the player's move direction and missile direction to up
-*	`DOWN` changes the player's move direction and missile direction to down
-*	`LEFT` changes the player's move direction and missile direction to left
-*	`RIGHT` changes the player's move direction and missile direction to right
-*	`1` stops the player's movement
-*	`2` starts the player's movement
-*	`q` disables the missile's range
-*	`w` sets the missile range to 100 pixels
-*	`a` disables the missile's damage (fires blanks)
-*	`s` sets missile power to do 0.5 hit-points (hp) damage
-*	`SPACE` fires a missile (if the player has enough missile mana)
-*	`i` toggles the game info in the status bar (hp, move mana, missile mana, etc)
-
-
-### The game
-
-The game is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player), and a 2 player mode to play against someone else at Code Camp.
-
-When you load the game you will see a bunch of square objects with an assortment of colors to help you identify them.
-
-*	Green - Your player
-*	Red - The opponent
-*	Yellow - NPC (Non-Player Character) players, kill them to level up
-*	White - Walls, can hide behind, but they get in the way
-*	Light Blue - Missiles
-
-There are NPC players you can shoot to level up your player to gain more missile and move mana (ability to move farther and shoot more bullets) as well as abilities to upgrade your missile power, range, and player speed.
-
-Both you and your opponent start with 30 hit points. The default missile deals 0.5 hp of damage (so you have to shoot your opponent 60 times to kill them). You can customize your game to upgrade your missiles to do more damage, but you have to level up your player by shooting NPC players for this to work.
-
-You can customize the game client by changing the colors, shapes, graphics, controls, sound effects, and anything else you can put your mind to. However, you can't give yourself extra bullets, change your's or your opponent's hit-points, make yourself invisible, speed of the bullets, or change the size of the walls, players, NPCs, that would just be unfair.
-
-Have fun with the Rookie Kit. Don't be scared to ask questions or help your neighbors. We want everyone to have a great time at Code Camp.
+[Getting Started](tutorials/other/getting_started.md)
 
 
 ## Tutorials
