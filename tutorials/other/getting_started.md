@@ -65,7 +65,7 @@ This is where you will do your work. There are four files that you need to know 
 *	[config.py](client_pygame/config.md)
 *	[control/control.py](client_pygame/control.md)
 *	[display/display.py](client_pygame/display.md)
-*	[main.py](client_pygame/main.md)
+*	main.py - You will not edit this file. Run this file to start the game.
 
 
 ### common
