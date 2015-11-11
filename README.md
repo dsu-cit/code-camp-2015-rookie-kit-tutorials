@@ -48,7 +48,7 @@ to run and change the game.
 
 There are several tutorials to help you with your game and we will publish more as needed during Code Camp.
 
-[Rookie Kit Tutorials](tutorials/index.md)
+[Rookie Kit Tutorials](tutorials/)
 
 
 ## Discussions
