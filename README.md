@@ -41,57 +41,57 @@ to run and change the game.
 
 ## Running the Game
 
-You start the game buy opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers from above you can open the main.py file with IDLE and then Run the program.
+You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers from above, you can open the main.py file with IDLE and then "Run" the program.
 
 
 ### The controls
 
-When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing UP. To start the player moving you push the 2 key and to stop you press 1.
+When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing a direction key. To start the player moving you push the 2 key, and to stop you press 1.
 
-You can change and customize the controls however you want but there is a list of all the keys and what they do.
+You may change and customize the controls however you want. Below is a list of how programmed by default.
 
-*	`UP` changes the players move direction and missile direction to up
-*	`DOWN` changes the players move direction and missile direction to down
-*	`LEFT` changes the players move direction and missile direction to left
-*	`RIGHT` changes the players move direction and missile direction to right
+*	`UP` changes the player's move direction and missile direction to up
+*	`DOWN` changes the player's move direction and missile direction to down
+*	`LEFT` changes the player's move direction and missile direction to left
+*	`RIGHT` changes the player's move direction and missile direction to right
 *	`1` stops the player's movement
 *	`2` starts the player's movement
 *	`q` disables the missile's range
 *	`w` sets the missile range to 100 pixels
 *	`a` disables the missile's damage (fires blanks)
-*	`s` sets missile power to do 0.5 hp damage
+*	`s` sets missile power to do 0.5 hit-points (hp) damage
 *	`SPACE` fires a missile (if the player has enough missile mana)
 *	`i` toggles the game info in the status bar (hp, move mana, missile mana, etc)
 
 
 ### The game
 
-The game is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player) and a 2 player mode to play against someone else at code camp.
+The game is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player), and a 2 player mode to play against someone else at Code Camp.
 
 When you load the game you will see a bunch of square objects.
 
 Green - Your player
 Red - The opponent
-Yellow - NPC players, kill them to level up
-White - Walls, to hide behind and get in the way
+Yellow - NPC (Non-Player Character) players, kill them to level up
+White - Walls, can hide behind, but they get in the way
 
 There are NPC players you can kill to level up your player to gain more missile and move mana (ability to move farther and shoot more bullets) as well as abilities to upgrade your missile power, range, and player speed.
 
 Both you and your opponent start with 30 hit points and the default missile deals 0.5 hp of damage (so you have to shoot your opponent 60 times to kill them). You can customize your game to upgrade your missiles to do more damage, but in order to do so you must kill off NPC players.
 
-You can customize the game client by changing the colors, shapes, graphics, controls, sound effects, and anything else you can put your mind to. You can't however give yourself extra bullets, make yourself invisible, or change the size of the walls, players, npcs, etc.
+You can customize the game client by changing the colors, shapes, graphics, controls, sound effects, and anything else you can put your mind to. However, you can't give yourself extra bullets, make yourself invisible, or change the size of the walls, players, NPCs, etc.
 
 Most of all HAVE FUN and ask questions if you need help or ideas of how to accomplish a task.
 
 
 ## Tutorials
 
-There are several tutorials to help you with your game and we will publish more as needed during code camp.
+There are several tutorials to help you with your game and we will publish more as needed during Code Camp.
 
 [Rookie Kit Tutorials](tutorials)
 
 
-## Disucssions
+## Discussions
 
 If you have questions, chances are someone else has the same question. Feel free to ask questions on the following discussion board and feel free to answer other questions. Remember to be considerate of others and don't post anything inappropriate or you will be banned, and possibly asked to leave Code Camp.
 
