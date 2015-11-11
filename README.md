@@ -68,20 +68,21 @@ You may change and customize the controls however you want. Below is a list of h
 
 The game is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player), and a 2 player mode to play against someone else at Code Camp.
 
-When you load the game you will see a bunch of square objects.
+When you load the game you will see a bunch of square objects with an assortment of colors to help you identify them.
 
-Green - Your player
-Red - The opponent
-Yellow - NPC (Non-Player Character) players, kill them to level up
-White - Walls, can hide behind, but they get in the way
+*	Green - Your player
+*	Red - The opponent
+*	Yellow - NPC (Non-Player Character) players, kill them to level up
+*	White - Walls, can hide behind, but they get in the way
+*	Light Blue - Missiles
 
-There are NPC players you can kill to level up your player to gain more missile and move mana (ability to move farther and shoot more bullets) as well as abilities to upgrade your missile power, range, and player speed.
+There are NPC players you can shoot to level up your player to gain more missile and move mana (ability to move farther and shoot more bullets) as well as abilities to upgrade your missile power, range, and player speed.
 
-Both you and your opponent start with 30 hit points and the default missile deals 0.5 hp of damage (so you have to shoot your opponent 60 times to kill them). You can customize your game to upgrade your missiles to do more damage, but in order to do so you must kill off NPC players.
+Both you and your opponent start with 30 hit points. The default missile deals 0.5 hp of damage (so you have to shoot your opponent 60 times to kill them). You can customize your game to upgrade your missiles to do more damage, but you have to level up your player by shooting NPC players for this to work.
 
-You can customize the game client by changing the colors, shapes, graphics, controls, sound effects, and anything else you can put your mind to. However, you can't give yourself extra bullets, make yourself invisible, or change the size of the walls, players, NPCs, etc.
+You can customize the game client by changing the colors, shapes, graphics, controls, sound effects, and anything else you can put your mind to. However, you can't give yourself extra bullets, change your's or your opponent's hit-points, make yourself invisible, speed of the bullets, or change the size of the walls, players, NPCs, that would just be unfair.
 
-Most of all HAVE FUN and ask questions if you need help or ideas of how to accomplish a task.
+Have fun with the Rookie Kit. Don't be scared to ask questions or help your neighbors. We want everyone to have a great time at Code Camp.
 
 
 ## Tutorials
