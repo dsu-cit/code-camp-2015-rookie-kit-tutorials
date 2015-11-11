@@ -7,7 +7,7 @@ Next we need to calculate the change between the x and y positions. This is ofte
 	dx = x2 - x1
 	dy = y2 - y1
 
-![Calculate dx and dy](../assets/images/mouse_steering_1.png)
+![Calculate dx and dy](../../assets/images/mouse_steering_1.png)
 
 Once you have the dx and dy values you can calculate the angle in radians fairly easy. It is usually calculated as atan(dy / dx) but in python we can use the [math.atan2](https://docs.python.org/2/library/math.html#math.atan2) function.
 

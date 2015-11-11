@@ -6,7 +6,7 @@ In this tutorial we will show how to update your player controls to enable steer
 
 #### Video Example (Click on the image to view video on youtube)
 
-[![Mouse Steering Video](../assets/images/mouse_steering_video.png)](http://www.youtube.com/watch?v=8Z2SukeupgA "Code Camp Rookie Kit - Mouse Steering Example")
+[![Mouse Steering Video](../../assets/images/mouse_steering_video.png)](http://www.youtube.com/watch?v=8Z2SukeupgA "Code Camp Rookie Kit - Mouse Steering Example")
 
 ### Calculating the angle of rotation
 
