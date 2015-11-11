@@ -10,8 +10,13 @@ You can also add calculations in this code to control the behavior of your playe
 
 The `__init__` method is used to create any variables (data members) that you need to remember. This method is only called once when the game starts so you can add data members that you want to persist and can update them through out the game without worrying about them being reset.
 
-`self.show_info` is the only data member by default. It is the state of the status bar. You can set this value to True to display the game info in the status_bar.
+*	`self.show_info` is the only data member by defined by default. It is the state of the status bar. You can set this value to True to display the game info in the status_bar or remove it later if you are no longer using it in your client.
 
+Since `Control` is a child of the `BaseControl` class it also has the following data members
+
+*	`self.width` the width of the game window
+*	`self.height` the height of the game window
+*	`self.state` the game state or mode chosen with the `pregame_control()` method of this class.
 
 
 ## `pregame_control()`
