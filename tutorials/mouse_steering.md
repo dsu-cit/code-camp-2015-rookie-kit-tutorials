@@ -59,9 +59,9 @@ We need to udate the direction the missile direction and the player direction. W
 	engine.set_missile_direction(degrees)
 	engine.set_player_direction(degrees)
 
-### Finished Code
+### Finishing up
 
-I added these updates before checking any keyboard input so we can use the new missile direction and player direction before moving, firing the missile, or anything else.
+I added my updates before checking any keyboard input so we can use the new missile direction and player direction before moving, firing the missile, or anything else.
 
 **Note:** We need to add in a bit of error checking because the player object does not always exist in the game (ie, the game hasn't started, the player dies, or the game is over)
 
@@ -70,16 +70,4 @@ I added these updates before checking any keyboard input so we can use the new m
 	if oid > 0: #check the player object exists
 		player = engine.get_object(oid)
 		if player != None: #make sure it is not a NoneType object
-
-			(x1,y1) = player.get_center()
-			(x2,y2) = mouse_position
-
-			dx = x2-x1
-			dy = y2-y1
-
-			radians = math.atan2(dy, dx)
-			radians %= 2*math.pi
-			degrees = math.degrees(radians)
-
-			engine.set_missile_direction(degrees)
-			engine.set_player_direction(degrees)
+			#Your code you want to run goes inside this block.
