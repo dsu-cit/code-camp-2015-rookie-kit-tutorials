@@ -1,7 +1,5 @@
 # Range Detection
 
-## Difficulty: Very Easy
-
 A very simple but useful display for you game is adding a simple circle around each player to display the range their missiles can travel. Using the [pygame.draw.circle](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) function, you can easily add a circle that looks like the following image. That way you know how far your's and/or an opponent's missiles can travel.
 
 ![Range Detection](../assets/images/range_detection.png)

@@ -1,7 +1,5 @@
 # Mouse Steering
 
-## Difficulty: Medium
-
 The default controls in the game can be kind of hard to use. If you don't update your graphics it is also really difficult to know which way your are facing and you are also limited to moving UP, DOWN, LEFT, and RIGHT. Wouldn't it be nice if you could point your mouse in the direction you want to go, move forward and have it follow your mouse?
 
 In this tutorial we will show how to update your player controls to enable steering with the mouse. This tutorial assumes you are starting with the base kit, so if you are not you may have to make adjustments to fit your game client.
