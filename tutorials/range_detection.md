@@ -16,11 +16,6 @@ The `paint_player(self, surface, engine, control, obj)` method receives the play
 	x = int( round(x) )
 	y = int( round(y) )
 
-_**Note:** if that doesn't work you can do the same thing by grabbing the players x and y point position, and their width and height measurements as follows._
-
-	x = obj.get_px() + obj.get_pw()/2
-	y = obj.get_py() + obj.get_ph()/2
-
 ### 2. Get the missile range of the player
 
 Using the player object `obj` we can get the missile range as follows. Remember to convert it to an integer or pygame will crash.
@@ -33,12 +28,6 @@ Once we have the center position and the range we have everything we need to dra
 
 	pygame.draw.circle(surface, color, (x,y), missle_range, 1)
 
-### 4. Finished Code
+### 4. Finishing Up
 
 I added all of the code from above inside the `obj.is_alive()` if statement just after the `pygame.draw.rect()` that draws the player.
-
-	(x, y) = obj.get_center()
-	x = int( round(x) )
-	y = int( round(y) )
-	missle_range = int( round(obj.get_missile_range()) )
-	pygame.draw.circle(surface, color, (x,y), missle_range, 1)

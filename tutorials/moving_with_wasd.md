@@ -4,37 +4,7 @@ In most games the player's movement is controlled with W, A, S, and D instead of
 
 We can easily implement this by updating our `game_input_controls` method in the *client_pygame > control > control.py* file.
 
-I started by deleting all the default controls except the `pygame.K_SPACE` which fires the missile when you hit the spacebar, and the `pygame.K_i` key which toggles the game information on and off when you hit the letter i. You might want to comment out all of the code rather than deleting it so you can come back later and use it as a reference.
-
-The following code is what I deleted from the `game_input_controls` method.
-
-    if pygame.K_UP in newkeys:
-        engine.set_player_direction(270)
-        engine.set_missile_direction(270)
-    elif pygame.K_DOWN in newkeys:
-        engine.set_player_direction(90)
-        engine.set_missile_direction(90)
-    elif pygame.K_LEFT in newkeys:
-        engine.set_player_direction(180)
-        engine.set_missile_direction(180)
-    elif pygame.K_RIGHT in newkeys:
-        engine.set_player_direction(0)
-        engine.set_missile_direction(0)
-
-    if pygame.K_1 in newkeys:
-        engine.set_player_speed_stop()
-    elif pygame.K_2 in newkeys:
-        engine.set_player_speed_slow()
-        
-    if pygame.K_q in newkeys:
-        engine.set_missile_range_none()
-    elif pygame.K_w in newkeys:
-        engine.set_missile_range_short()
-
-    if pygame.K_a in newkeys:
-        engine.set_missile_power_none()
-    elif pygame.K_s in newkeys:
-        engine.set_missile_power_low()
+I started by deleting all the default controls except the `pygame.K_SPACE` which fires the missile when you hit the spacebar, and the `pygame.K_i` key which toggles the game information on and off when you hit the letter i. **You might want to comment out all of the code rather than deleting it so you can come back later and use it as a reference.**
 
 The following is what I added in its place.
 
