@@ -1,13 +1,3 @@
-# Adding Sound Effects with PyGame
-
-Chances are you want to add sound effects in your game. If this is the case you probably want several sound effects that play several times. (ie when you fire a missile or when a missile hits a target). **This is only for sound effects; NOT BACKGROUND MUSIC.** If you want to add background music see [Adding Background Music](adding_background_music.md).
-
-Sound effects are added and controlled using [pygame.mixer.Sound](http://pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) objects. Pygame only supports wav and ogg files so if you have mp3 or other filetypes you will have to convert them using software such as [Audacity](http://audacityteam.org/) or using an online tool like [audio-online-convert.com](http://audio.online-convert.com/). Sounds are pretty easy to add and play using the following steps: (a) load and store the sound (b) play the sound.
-
-	sound = pygame.mixer.Sound('path_to_some_ogg_or_wav_file')
-	sound.play()
-
-
 ## Handling Multiple Sound Instances
 
 Since pygame requires you to store the sound object to trigger its play() method, it is easy to make the mistake of storing redundant sound instances. You can easily create a sound_library in to store and manage sound instances. I added the following method to my `Display` class located in *client_pygame > display > display.py*. Make sure you add a class variable `self.sound_library = {}` to the `__init__()` method or your program will crash. You also need to import the `os` module `import os`

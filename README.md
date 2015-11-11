@@ -89,7 +89,7 @@ Have fun with the Rookie Kit. Don't be scared to ask questions or help your neig
 
 There are several tutorials to help you with your game and we will publish more as needed during Code Camp.
 
-[Rookie Kit Tutorials](tutorials)
+[Rookie Kit Tutorials](tutorials/index.md)
 
 
 ## Discussions
