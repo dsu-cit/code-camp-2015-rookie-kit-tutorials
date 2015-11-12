@@ -59,6 +59,11 @@ the player has requested to join a game.  This would usually
 allow the user to know the options available for joining
 games.
 
+### Available Parameters
+
+*       `surface` is the window to draw on.
+*	`control` is the control object used to issue commands to the game engine.
+        [control documentation](control.md)
 
 
 ## `paint_waiting_for_game()`
@@ -67,6 +72,12 @@ The `paint_waiting_for_game` method controls the drawing of the screen
 after the player has requested to join a game, but before
 the game actually begins.
 
+### Available Parameters
+
+*       `surface` is the window to draw on.
+*	`engine` is the game engine that contains all of the information about the current game.  It also has all of the control methods that allows you to send commands to the server to control your player. [engine object documentation](../engine_client/game_engine.md)
+*	`control` is the control object used to issue commands to the game engine.
+        [control documentation](control.md)
 
 
 ## `paint_game()`
@@ -76,6 +87,12 @@ game is in session.  This is responsible for making
 sure that any information, whether graphics, text, or
 images are drawn to the screen.
 
+### Available Parameters
+
+*       `surface` is the window to draw on.
+*	`engine` is the game engine that contains all of the information about the current game.  It also has all of the control methods that allows you to send commands to the server to control your player. [engine object documentation](../engine_client/game_engine.md)
+*	`control` is the control object used to issue commands to the game engine.
+        [control documentation](control.md)
 
 
 ## `paint_game_over()`
@@ -83,6 +100,13 @@ images are drawn to the screen.
 The `paint_game_over` method controls the drawing of the screen after
 the game has been won, but before the game goes away.
 This is a short (3-5 second) period.
+
+### Available Parameters
+
+*       `surface` is the window to draw on.
+*	`engine` is the game engine that contains all of the information about the current game.  It also has all of the control methods that allows you to send commands to the server to control your player. [engine object documentation](../engine_client/game_engine.md)
+*	`control` is the control object used to issue commands to the game engine.
+        [control documentation](control.md)
 
 
 
@@ -125,3 +149,23 @@ The `paint_player` method controls the drawing of player objects. This method is
 
 The `paint_game_status` method controls the drawing of the status bar. By default nothing is displayed until the letter "i" is pressed on the keyboard to toggle the `control.show_info` data member. See the `paint_game` method to change that setting.
 
+
+Inherited Methods
+-----------------
+
+## `obj_to_rect()`
+
+This method returns a `pygame.Rect` suitable for
+use in drawing.
+        
+## `draw_text_left()`
+
+This method can be used to draw left justified text.
+
+## `draw_text_center()`
+
+This method can be used to draw centered text.
+
+## `draw_text_right()`
+
+This method can be used to draw right justified text.
