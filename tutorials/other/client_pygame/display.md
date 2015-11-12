@@ -94,7 +94,7 @@ engine.  This includes things like collisions,
 objects dying, etc.  This would be a great place to
 play an audio file when missiles hit objects.
 
-Look at [event documentation](common/event.md).
+Look at [event documentation](../common/event.md).
 
 
 ## `paint_wall()`
