@@ -3,7 +3,7 @@
 
 ## Running the Game
 
-You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers from above, you can open the main.py file with IDLE and then "Run" the program.
+You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers on the thumbdrive, you can open the main.py file with IDLE and then "Run" the program. You can also install and use PyCharm.
 
 
 
