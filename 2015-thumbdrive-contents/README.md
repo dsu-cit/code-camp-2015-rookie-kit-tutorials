@@ -12,14 +12,14 @@ bandwidth.
 
 ### Windows/Mac OSX
 
-1.	Download and install the latest version of Python 2.7 (32-bit version).
+1.	Install the latest version of Python 2.7 (32-bit version).
 	*	**Do not install a 3.x version of python**
 	*	**Do not install a 64-bit version of python** (even if your operating system is 64-bit)
-	*	[Windows installer - Python](2015-thumbdrive-contents/WINDOWS/python-2.7.10.msi?raw=true)
-	*	[OSX installer - Python](2015-thumbdrive-contents/OSX/python-2.7.10-macosx10.6.pkg?raw=true)
+	*	[Windows installer - Python](WINDOWS/python-2.7.10.msi)
+	*	[OSX installer - Python](OSX/python-2.7.10-macosx10.6.pkg)
 2.	Download and install the 32-bit version of PyGame for Python 2.7
-	*	[Windows installer - PyGame](2015-thumbdrive-contents/WINDOWS/pygame-1.9.1.win32-py2.7.msi?raw=true)
-	*	[OSX installer - PyGame](2015-thumbdrive-contents/OSX/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg?raw=true)
+	*	[Windows installer - PyGame](WINDOWS/pygame-1.9.1.win32-py2.7.msi)
+	*	[OSX installer - PyGame](OSX/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg)
 
 *Note:* If you have homebrew on your mac you can use it to install Python and PyGame.
 
@@ -34,25 +34,34 @@ bandwidth.
 
 ### Test your system to verify python and pygame work.
 	
-*	Download and run [pygame_check.py](2015-thumbdrive-contents/pygame_check.py)
-*	If you see the following window with Code Camp messages, your system is working ![PyGame Check](assets/images/pygame_check.png)
+*	Download and run [pygame_check.py](pygame_check.py)
+*	If you see a window with Code Camp messages, your system is working.
 
 
-## Download the Starter Code
+## Unpack the Starter Code
 
-[Rookie Kit](2015-thumbdrive-contents/rookie-kit-2015.zip?raw=true)
+[Rookie Kit](rookie-kit-2015.zip)
 
 
 ## Getting Started
 
-[Getting Started](tutorials/other/getting_started.md)
+[Getting Started](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/tutorials/other/getting_started.md)
 
 
 ## Tutorials
 
 There are several tutorials to help you with your game and we will publish more as needed during Code Camp.
 
-[Rookie Kit Tutorials](tutorials/)
+[Rookie Kit Tutorials](https://github.com/dsu-cit/code-camp-2015-rookie-kit-tutorials/tutorials/)
+
+
+## Other Tools
+
+We have also provided installers for
+
+* Audacity - audio editor
+* Gimp - image editor
+* PyCharm - python editor and development environment
 
 
 ## Discussions

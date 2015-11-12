@@ -16,31 +16,31 @@ Desired Tutorials
 
 `client_pygame/main.py`
 
-- How to run the game -- In README.md
-- How to play with the default controls -- In README.md
-- What the game is -- In README.md
-- What the display is showing -- In README.md
+* How to run the game -- In README.md
+* How to play with the default controls -- In README.md
+* What the game is -- In README.md
+* What the display is showing -- In README.md
 
 `client_pygame/control/control.py`
 
-- Where to make keyboard control changes for the game
-- How to find the correct `pygame.K_` symbol
-- Difference between `keys` and `newkeys`
-- Motion commands available/descriptions   (based on comments in engine_client/game_engine.py)
-- Missile commands available/descriptions  (based on comments in engine_client/game_engine.py)
+* Where to make keyboard control changes for the game
+* How to find the correct `pygame.K_` symbol
+* Difference between `keys` and `newkeys`
+* Motion commands available/descriptions   (based on comments in engine_client/game_engine.py)
+* Missile commands available/descriptions  (based on comments in engine_client/game_engine.py)
 - Pre-game control options
 - game_control hints.  No actual code.
 - What the mouse coordinates are.
 
 `client_pygame/config.py`
 
-- Meanings of existing configuration parameters
+* Meanings of existing configuration parameters
 - Example of adding one simple configuration parameter
 - Suggestion that configuration parameters could be useful
 
 `client_pygame/display/display.py`
 
-- Where to make changes for the display
+* Where to make changes for the display
 - Change color of background
 - Change color of player
 - Change color of other objects hint
@@ -49,16 +49,16 @@ Desired Tutorials
 - How to load/blit image (hint for player, suggest others)
 - How to play background music ()
 - How to play sound file ()
-- `paint_pregame` purpose
-- `paint_waiting_for_game` purpose
-- `paint_game_over` purpose
-- `process_event` purpose (hint at use for sound)
+* `paint_pregame` purpose
+* `paint_waiting_for_game` purpose
+* `paint_game_over` purpose
+* `process_event` purpose (hint at use for sound)
 
 
 Others?
 --------------
-- list of events (process_event support)
-- 
+* list of events (process_event support)
+ 
 
 Undesired Tutorials
 -------------------

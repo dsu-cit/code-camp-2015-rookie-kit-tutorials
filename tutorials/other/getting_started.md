@@ -10,7 +10,7 @@ You start the game by opening *client_pygame > main.py* and running/building the
 
 When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing a direction key. To start the player moving you push the 2 key, and to stop you press 1.
 
-You may change and customize the controls however you want. Below is a list of how programmed by default.
+You may change and [customize the controls](client_pygame/control.md) however you want. Below is a list of the default controls.
 
 *	`UP` changes the player's move direction and missile direction to up
 *	`DOWN` changes the player's move direction and missile direction to down
@@ -28,7 +28,7 @@ You may change and customize the controls however you want. Below is a list of h
 
 ### The game
 
-The game is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player), and a 2 player mode to play against someone else at Code Camp.
+[The game](the_game.md) is a basic shooter. You are playing against a single opponent. There are modes to play a single player game (against an AI player), and a 2 player mode to play against someone else at Code Camp.
 
 When you load the game you will see a bunch of square objects with an assortment of colors to help you identify them.
 
@@ -51,7 +51,7 @@ Have fun with the Rookie Kit. Don't be scared to ask questions or help your neig
 ## The Rookie Kit Files
 
 
-Below is a description of all folders in the rookie-kit. With links to further documentation You will do all your customizations in the "client_pygame" folder.
+Below is a description of all folders in the rookie-kit. With links to further documentation. You will do all your customizations in the "client_pygame" folder.
 
 
 ### client
@@ -72,20 +72,22 @@ This is where you will do your work. There are four files that you need to know 
 
 You will not edit any of the files in this folder, but will want to know what several of them do. They contain methods for the different objects in the game and allow you to get information like its position on the board, its height and width, the direction it is facing on the board and much more.
 
-*	[event.py](common/event.md)
+*	[object.py](common/object.md)
+*	[player.py](common/player.md)
 *	[missile.py](common/missile.md)
-*	[object.py](object.md)
-*	[player.py](player.md)
+*	[event.py](common/event.md)
+*	[npc.py](common/npc.md)
+*	[wall.py](common/wall.md)
 
 
 ### engine_client
 
-Contains information about the game engine. You will use this to get an object (player, wall, missile, npc, etc) and get more information about them. You also use this to update the player and missile direction, set the player's speed, update the missile range, and fire a missile.
+Contains information about the game engine. You will use this to get an object (player, wall, missile, npc, etc) and get more information about them. You also use this to send requests to update the player and missile direction, set the player's speed, update the missile range, and fire a missile.
 
 *	[game_engine.py](engine_client/game_engine.md)
 
 ### engine_server
 
-You can't do much with this the files in the folder and should not edit the files, but it contains a copy of the server configuration file so that you can see how big objects are, how much health they have, and other information so you can calculate how much xp you need to acquire before upgrading your missile range, missile power, and player's movement.
+You can't do much with this files and should not edit the file, but it contains a copy of the server configuration file so that you can see how big objects are, how much health they have, and other information so you can calculate how much xp you need to acquire before upgrading your missile range, missile power, and player's movement.
 
 *	[config.py](engine_server/config.md)
