@@ -43,5 +43,4 @@
 ### Other
 
 *	[Range detection](display/range_detection.md)
-*	[Drawing a circle](display/drawing_circles.md)
 
