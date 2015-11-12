@@ -12,7 +12,7 @@ will appear in the game data, but it will be hard for your
 program to know that the missile is new.
 
 Events are useful for making sounds play based on these changes in the game.
-Look at [`process_event()`](other/client_pygame/display.md).
+Look at [`process_event()`](../client_pygame/display.md).
 
 
 ## Notable Event Methods
