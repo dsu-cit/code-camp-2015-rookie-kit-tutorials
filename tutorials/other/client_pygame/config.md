@@ -12,7 +12,7 @@ Used to configure the text in the title bar of your game window. You and your te
 
 ## `DEFAULT_TEAM_NAME`
 
-Configures your display name during game with others. You and your team are encourage to update this value.
+Configures your display name during games with others. You and your team are encouraged to update this value.
 
 
 ## `FRAMES_PER_SECOND`
@@ -22,7 +22,7 @@ This is the number of times to check for input and redraw the screen every secon
 
 ## `POST_GAME_WAIT_TIME`
 
-This is how long to wait after the game is over before returning to the pre-game display
+This is how long to wait after the game is over before returning to the pre-game display.
 
 
 ## `WINDOW_WIDTH`

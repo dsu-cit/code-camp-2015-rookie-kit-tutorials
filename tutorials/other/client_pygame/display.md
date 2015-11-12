@@ -20,7 +20,7 @@ any one time setup.
 #### Font Options
 
 *	`self.font_size` the default font size used to render text
-*	`self.font` the default font. *(You must create a new font if you want to have multiple font sizes)*
+*	`self.font` the default font. *(You must create additional fonts if you want to have multiple font sizes)*
 
 There are other fonts available, but they are not
 the same on every computer.  You can read more about
@@ -40,21 +40,22 @@ the same on every computer.  You can read more about
 Colors are specified as a triple of integers from 0 to 255.
 The values are how much red, green, and blue to use in the color.
 Check out [colorpicker.com](http://www.colorpicker.com/) if you want to try out
-colors and find their RGB values.
+colors and find their RGB values.  Be sure to use the `R`, `G`, `B` values
+at the bottom, not the H, S, B values at the 
 
 ### Inherited Data Members
 
 The `Display` class is a inherits from `BaseDisplay` located in *client > base_display.py*
 
-*	`self.width` the width of the game window
-*	`self.height` the height of the game window
+*	`self.width` the width of the game window (in pixels)
+*	`self.height` the height of the game window (in pixels)
 
 
 
 ## `paint_pregame()`
 
 The `paint_pregame` method controls the drawing of the screen before
-you have requested to join a game.  This would usually
+the player has requested to join a game.  This would usually
 allow the user to know the options available for joining
 games.
 
@@ -63,7 +64,7 @@ games.
 ## `paint_waiting_for_game()`
 
 The `paint_waiting_for_game` method controls the drawing of the screen
-after you have requested to join a game, but before
+after the player has requested to join a game, but before
 the game actually begins.
 
 
@@ -93,29 +94,30 @@ engine.  This includes things like collisions,
 objects dying, etc.  This would be a great place to
 play an audio file when missiles hit objects.
 
+Look at [event documentation](common/event.md).
 
 
 ## `paint_wall()`
 
-The `paint_wall` method controls the drawing of wall objects. A trick to tell the different between outside walls (on the edge) and interior walls is to check to see if their height and width are the same. This method is called every frame of the game.
+The `paint_wall` method controls the drawing of wall objects. A trick to tell the different between outside walls (on the edge) and interior walls is to check to see if their height and width are the same. This method is called for every wall every frame of the game.
 
 
 
 ## `paint_npc()`
 
-The `paint_npc` method controls the drawing of NPC objects. This method is called every frame of the game.
+The `paint_npc` method controls the drawing of NPC objects. This method is called for every npc every frame of the game.
 
 
 
 ## `paint_missile()`
 
-The `paint_missile` method controls the drawing of missile objects. This method is called every frame of the game.
+The `paint_missile` method controls the drawing of missile objects. This method is called for every existing missile every frame of the game.
 
 
 
 ## `paint_player()`
 
-The `paint_player` method controls the drawing of player objects. This method is called every frame of the game.
+The `paint_player` method controls the drawing of player objects. This method is called for both players every frame of the game.
 
 
 
