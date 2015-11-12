@@ -9,6 +9,7 @@
 *	[client_pygame/display/display.py](other/client_pygame/display.md)
 *	[common/event.py](other/common/event.md)
 *	[common/missile.py](other/common/missile.md)
+*	[common/npc.py](other/common/npc.md)
 *	[common/object.py](other/common/object.md)
 *	[common/player.py](other/common/player.md)
 *	[engine_client/game_engine.py](other/engine_client/game_engine.md)
