@@ -22,9 +22,9 @@ Look at [`process_event()`](../client_pygame/display.md).
 Returns the `kind` or type of event the event is. One you have this, you can check if it is one of the following listed below and use the appropriate methods.
 
 
-## E_MISSILE_FIRE Methods
+## E&#95;MISSILE&#95;FIRE
 
-E_MISSILE_FIRE events occur when a missile is fired. Its methods include:
+E&#95;MISSILE&#95;FIRE events occur when a missile is fired. Its methods include:
 
 *   `get_player_oid()` returns the object id of the player that shot the missile
 *   `get_missile_oid()` returns the object id of the missile that was fired
@@ -33,17 +33,17 @@ E_MISSILE_FIRE events occur when a missile is fired. Its methods include:
 
 
 
-## E_MISSILE_MISFIRE
+## E&#95;MISSILE&#95;MISFIRE
 
-E_MISSILE_MISFIRE events occur when a player tries to fire but doesn't have enough mana (ie not enough bullets). Its methods include:
+E&#95;MISSILE&#95;MISFIRE events occur when a player tries to fire but doesn't have enough mana (ie not enough bullets). Its methods include:
 
 *   `get_player_oid()` returns the object id of the player that tried to fire the missile
 
 
 
-## E_MISSILE_HIT
+## E&#95;MISSILE&#95;HIT
 
-E_MISSILE_HIT events occur when a missile hits something (wall, npc, player, or bullet). Its methods include:
+E&#95;MISSILE&#95;HIT events occur when a missile hits something (wall, npc, player, or bullet). Its methods include:
 
 *   `get_player_oid()` returns the object id of the player that shot the missile
 *   `get_missile_oid()` returns the object id of the missile that hit something
@@ -51,9 +51,9 @@ E_MISSILE_HIT events occur when a missile hits something (wall, npc, player, or 
 
 
 
-## E_MISSILE_DYING
+## E&#95;MISSILE&#95;DYING
 
-E_MISSILE_DYING events occur when a missile hits its maximum range and begins dying (missile misses completely). Its methods include:
+E&#95;MISSILE&#95;DYING events occur when a missile hits its maximum range and begins dying (missile misses completely). Its methods include:
 
 *   `get_player_oid()` returns the object id of the player that shot the dying missile
 *   `get_missile_oid()` returns the object id of the missile that is dying

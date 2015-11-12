@@ -116,7 +116,7 @@ The `process_event` method controls handling events that occur in the
 game, that aren't represented by objects in the game
 engine.  This includes things like collisions,
 objects dying, etc.  This would be a great place to
-play an audio file when missiles hit objects.
+play an audio file when missiles are fired or hit objects.
 
 Look at [event documentation](../common/event.md).
 

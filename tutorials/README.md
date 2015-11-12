@@ -14,7 +14,7 @@
 *	[common/event.py](other/common/event.md)
 *	[common/npc.py](other/common/npc.md)
 *	[common/wall.py](other/common/wall.md)
-*	[engine_client/game_engine.py](other/engine_client/game_engine.md)
+*	[engine&#95;client/game&#95;engine.py](other/engine_client/game_engine.md)
 *	[engine_server/config.py](other/engine_server/config.md)
 
 
@@ -22,7 +22,6 @@
 
 *	[Moving with WASD](controls/moving_with_wasd.md)
 * 	[Steering with the Mouse](controls/mouse_steering.md)
-*	Checking for Mouse Click
 
 
 ## Sound
