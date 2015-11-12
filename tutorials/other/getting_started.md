@@ -6,25 +6,6 @@
 You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers from above, you can open the main.py file with IDLE and then "Run" the program.
 
 
-### The controls
-
-When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing a direction key. To start the player moving you push the 2 key, and to stop you press 1.
-
-You may change and [customize the controls](client_pygame/control.md) however you want. Below is a list of the default controls.
-
-*	`UP` changes the player's move direction and missile direction to up
-*	`DOWN` changes the player's move direction and missile direction to down
-*	`LEFT` changes the player's move direction and missile direction to left
-*	`RIGHT` changes the player's move direction and missile direction to right
-*	`1` stops the player's movement
-*	`2` starts the player's movement
-*	`q` disables the missile's range
-*	`w` sets the missile range to 100 pixels
-*	`a` disables the missile's damage (fires blanks)
-*	`s` sets missile power to do 0.5 hit-points (hp) damage
-*	`SPACE` fires a missile (if the player has enough missile mana)
-*	`i` toggles the game info in the status bar (hp, move mana, missile mana, etc)
-
 
 ### The game
 
@@ -46,6 +27,26 @@ You can customize the game client by changing the colors, shapes, graphics, cont
 
 Have fun with the Rookie Kit. Don't be scared to ask questions or help your neighbors. We want everyone to have a great time at Code Camp.
 
+
+
+### The controls
+
+When first running the game, you control the direction the player moves and fires a missile by pushing the UP, DOWN, LEFT, or RIGHT keys. You may notice the player does not move by pushing a direction key. To start the player moving you push the 2 key, and to stop you press 1.
+
+You may change and [customize the controls](client_pygame/control.md) however you want. Below is a list of the default controls.
+
+*	`UP` changes the player's move direction and missile direction to up
+*	`DOWN` changes the player's move direction and missile direction to down
+*	`LEFT` changes the player's move direction and missile direction to left
+*	`RIGHT` changes the player's move direction and missile direction to right
+*	`1` stops the player's movement
+*	`2` starts the player's movement
+*	`q` disables the missile's range
+*	`w` sets the missile range to 100 pixels
+*	`a` disables the missile's damage (fires blanks)
+*	`s` sets missile power to do 0.5 hit-points (hp) damage
+*	`SPACE` fires a missile (if the player has enough missile mana)
+*	`i` toggles the game info in the status bar (hp, move mana, missile mana, etc)
 
 
 ## The Rookie Kit Files
