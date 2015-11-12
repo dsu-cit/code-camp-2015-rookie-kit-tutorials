@@ -12,6 +12,7 @@
 *	[common/npc.py](other/common/npc.md)
 *	[common/object.py](other/common/object.md)
 *	[common/player.py](other/common/player.md)
+*	[common/wall.py](other/common/wall.md)
 *	[engine_client/game_engine.py](other/engine_client/game_engine.md)
 *	[engine_server/config.py](other/engine_server/config.md)
 

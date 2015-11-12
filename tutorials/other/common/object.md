@@ -1,7 +1,7 @@
 # File: common/object.py
 
 All parts in the game are objects.  This includes
-players, npcs, missiles, and walls.  That means
+[player](player.md)s, [npc](npc.md)s, [missile](missile.md)s, and [wall](wall.md)s.  That means
 the methods documented here can be used on any
 of these objects.
 
