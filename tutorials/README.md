@@ -24,17 +24,24 @@
 * 	[Steering with the Mouse](controls/mouse_steering.md)
 
 
-## Sound
+## Display
+
+### Sounds
 
 *	[Adding Background Music](display/sounds/adding_background_music.md)
 *	[Adding Sound Effects](display/sounds/adding_sound_effects.md)
 *	[Handling Several Sound Effects](display/sounds/handling_several_sounds.md)
 
 
-## Images
+### Images
 
-*	Loading an image in pygame
-*	Displaying an image for an object
-*	Resizing and image
-*	Rotating an image
+*	[Loading an image for an object](display/images/loading_an_image.md)
+*	[Resizing an image](display/images/resizing_an_image.md)
+*	[Rotating an image](display/images/rotating_an_image.md)
+
+
+### Other
+
+*	[Range detection](display/range_detection.md)
+*	[Drawing a circle](display/drawing_circles.md)
 

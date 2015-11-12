@@ -1,0 +1,1 @@
+# Loading an image for an object
