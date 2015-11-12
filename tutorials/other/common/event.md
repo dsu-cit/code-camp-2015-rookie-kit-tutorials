@@ -70,4 +70,3 @@ MISSILE_DYING events occur when a missile hits its maximum range and begins dyin
 	elif event_kind == "MISSILE_DYING":
 		#do some cool action when a missile misses an object or runs out of range too early.
 
-Depending on your operating system you might get an error about a `UnicodeType` after using `event.get_kind()` you can fix that error by converting it back to a string using `str(event.get_kind())`.
