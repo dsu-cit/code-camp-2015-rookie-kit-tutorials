@@ -46,10 +46,10 @@ will automatically set the player speed to stop.
 Faster speeds consume more movement mana than
 slower speeds.
 
-#    set_player_speed_stop() stop moving.
-#    set_player_speed_slow() move slowly, if enough mana.
-#    set_player_speed_medium() move medium, if enough mana, and enough experience.
-#    set_player_speed_fast() move fast, if enough mana, and enough experience.
+*    set_player_speed_stop() stop moving.
+*    set_player_speed_slow() move slowly, if enough mana.
+*    set_player_speed_medium() move medium, if enough mana, and enough experience.
+*    set_player_speed_fast() move fast, if enough mana, and enough experience.
 
 
 ## Movement direction:
