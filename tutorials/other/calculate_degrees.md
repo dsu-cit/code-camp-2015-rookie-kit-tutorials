@@ -17,7 +17,7 @@ _**NOTE:** This will require that you import the math library into your file usi
 
 We need to make sure we convert the radians for a full circle. So we need to divide the radians by 2&pi; and keep the remainder, or in other words take radians % 2&pi;. In python &pi; can be represented as [math.pi](https://docs.python.org/2/library/math.html#math.pi).
 
-	radians = radians % 2 * math.pi
+	radians %= 2 * math.pi
 
 Finally we can convert from radians to degrees using the [math.degrees](https://docs.python.org/2/library/math.html#math.degrees) function.
 
@@ -30,5 +30,5 @@ So after working through all that we are left with the following.
 	dx = x2 - x1
 	dy = y2 - y1
 	radians = math.atan2(dy, dx)
-	radians = radians % 2 * math.pi
+	radians %= 2 * math.pi
 	degrees = math.degrees(radians)
