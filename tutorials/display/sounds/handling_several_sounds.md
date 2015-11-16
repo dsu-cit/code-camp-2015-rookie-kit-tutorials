@@ -6,9 +6,9 @@ I created a *sounds* folder in my *client_pygame > display* folder and stored al
 
     def play_sound(self, sound_file):
     	"""
-    	You should create a self.sound_library variable in your
-    	__init__() method, it should be an empty dictionary. If
-    	you don't, this helper method will crash your program.
+    	You should create a self.sound_library={} variable in
+        your __init__() method, it should be an empty dictionary.
+        If you don't, this helper method will crash your program.
     	"""
 
     	# If the sound_file is in the library play the sound

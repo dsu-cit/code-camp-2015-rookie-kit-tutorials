@@ -1,5 +1,7 @@
 # Resizing an image in PyGame
 
+**You should not use this to resize large images to fit in your game. You might need to use this if you use the same image for objects of different sizes. Make your images as small as you can to avoid game lag.**
+
 ## 1. Load the image
 
 To resize an image you will have to load an image using the [pygame.image.load](https://www.pygame.org/docs/ref/image.html#pygame.image.load) function and the use the [pygame.transform.scale](https://www.pygame.org/docs/ref/transform.html#pygame.transform.scale) function. Refer to [Loading an image for an object](loading_an_image.md) tutorial for more information loading an image.

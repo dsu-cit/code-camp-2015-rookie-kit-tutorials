@@ -38,6 +38,7 @@
 *	[Loading an image for an object](display/images/loading_an_image.md)
 *	[Resizing an image](display/images/resizing_an_image.md)
 *	[Rotating an image](display/images/rotating_an_image.md)
+*	[Handling Several Image Instances](display/images/handling_several_images.md)
 
 
 ### Other
