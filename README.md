@@ -19,7 +19,7 @@ bandwidth.
 	*	[OSX installer - Python](2015-thumbdrive-contents/OSX/python-2.7.10-macosx10.6.pkg?raw=true)
 2.	Download and install the 32-bit version of PyGame for Python 2.7
 	*	[Windows installer - PyGame](2015-thumbdrive-contents/WINDOWS/pygame-1.9.1.win32-py2.7.msi?raw=true)
-	*	[OSX installer - PyGame](2015-thumbdrive-contents/OSX/pygame-1.9.1release-python.org-32bit-py2.7-macosx10.3.dmg?raw=true)
+	*	[OSX installer - PyGame](2015-thumbdrive-contents/OSX/pygame-1.9.2pre-py2.7-macosx10.7.mpkg.zip?raw=true)
 
 *Note:* If you have homebrew on your mac you can use it to install Python and PyGame.
 
