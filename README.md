@@ -21,7 +21,16 @@ bandwidth.
 	*	[Windows installer - PyGame](2015-thumbdrive-contents/WINDOWS/pygame-1.9.1.win32-py2.7.msi?raw=true)
 	*	[OSX installer - PyGame](2015-thumbdrive-contents/OSX/pygame-1.9.2pre-py2.7-macosx10.7.mpkg.zip?raw=true)
 
-*Note:* If you have homebrew on your mac you can use it to install Python and PyGame.
+*Note:* If you are running El Capitan or Sierra, it is suggested that you install python and pygame using homebrew.
+
+To install homebrew:
+
+1. Visit [brew.sh](http://brew.sh/#install)
+2. Copy the install command: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+3. Open terminal (Finder > Go > Utlities > Terminal)
+4. Paste the command and wait for homebrew to finish installing.
+
+Once homebrew is installed you can install python and pygame using the commands below.
 
 	brew update
 	brew install python
