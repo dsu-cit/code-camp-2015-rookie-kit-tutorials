@@ -26,7 +26,7 @@ bandwidth.
 To install homebrew:
 
 1. Visit [brew.sh](http://brew.sh/#install)
-2. Copy the install command: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. Copy the install command.
 3. Open terminal (Finder > Go > Utlities > Terminal)
 4. Paste the command and wait for homebrew to finish installing.
 
