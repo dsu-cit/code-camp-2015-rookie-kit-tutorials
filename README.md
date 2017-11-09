@@ -4,7 +4,7 @@
 ## Setup
 
 You'll need Python and PyGame installed on your system
-to run and change the game. [http://cit.dixie.edu/cs/1410/pygame-installation.php](Instructions found here.)
+to run and change the game. [Instructions found here.](http://cit.dixie.edu/cs/1410/pygame-installation.php)
 
 ### Test your system to verify python and pygame work.
 	
