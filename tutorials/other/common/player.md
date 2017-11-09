@@ -1,4 +1,4 @@
-# File: common/player.py
+# File: tps/common/player.py
 
 There are two player objects in the game.  Your player
 and your opponent.  Players have all of the functionality

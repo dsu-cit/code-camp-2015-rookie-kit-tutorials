@@ -3,7 +3,7 @@
 
 ## Running the Game
 
-You start the game by opening *client_pygame > main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers on the thumbdrive, you can open the main.py file with IDLE and then "Run" the program. You can also install and use PyCharm.
+You start the game by opening *main.py* and running/building the program. It is important that the folders and files stay named the same and are not moved out of their current structure. If you used the installers on the thumbdrive, you can open the main.py file with IDLE and then "Run" the program. You can also install and use PyCharm.
 
 
 
@@ -55,11 +55,11 @@ You may change and [customize the controls](client_pygame/control.md) however yo
 Below is a description of all folders in the rookie-kit. With links to further documentation. You will do all your customizations in the "client_pygame" folder.
 
 
-### client
+### tps/client
 
 Contains files for the base client system, including controls, display, and other information for allowing your game client to communicate and work with the game. You will not need to edit any files in this folder and don't really need to know how they work so you can probably ignore this folder.
 
-### client_pygame
+### .
 
 This is where you will do your work. There are four files that you need to know about. You can read about each one by clicking on the appropriate link below
 
@@ -69,7 +69,7 @@ This is where you will do your work. There are four files that you need to know 
 *	main.py - You will not edit this file. Run this file to start the game.
 
 
-### common
+### tps/common
 
 You will not edit any of the files in this folder, but will want to know what several of them do. They contain methods for the different objects in the game and allow you to get information like its position on the board, its height and width, the direction it is facing on the board and much more.
 
@@ -81,13 +81,13 @@ You will not edit any of the files in this folder, but will want to know what se
 *	[wall.py](common/wall.md)
 
 
-### engine_client
+### tps/engine_client
 
 Contains information about the game engine. You will use this to get an object (player, wall, missile, npc, etc) and get more information about them. You also use this to send requests to update the player and missile direction, set the player's speed, update the missile range, and fire a missile.
 
 *	[game_engine.py](engine_client/game_engine.md)
 
-### engine_server
+### tps/engine_server
 
 You can't do much with this files and should not edit the file, but it contains a copy of the server configuration file so that you can see how big objects are, how much health they have, and other information so you can calculate how much xp you need to acquire before upgrading your missile range, missile power, and player's movement.
 

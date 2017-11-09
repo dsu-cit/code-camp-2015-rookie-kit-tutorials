@@ -1,4 +1,4 @@
-# File: client_pygame/display/display.py
+# File: display/display.py
 
 This class controls all of the drawing of the screen for your game.  The process of drawing a screen is to first draw the background, and then draw everything that goes on top of it.  If two items are drawn in the same place, then the last item drawn will be the one that is visible.
 
@@ -45,7 +45,7 @@ at the bottom, not the H, S, B values at the
 
 ### Inherited Data Members
 
-The `Display` class is a inherits from `BaseDisplay` located in *client > base_display.py*
+The `Display` class is a inherits from `BaseDisplay` located in *tps > client > base_display.py*
 
 *	`self.width` the width of the game window (in pixels)
 *	`self.height` the height of the game window (in pixels)

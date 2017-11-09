@@ -1,4 +1,4 @@
-# File: client_pygame/control/control.py
+# File: control/control.py
 
  This class is where you specify how your player behaves in the game.  You can use key presses, mouse clicks, and mouse motion to receive input from the user.
 

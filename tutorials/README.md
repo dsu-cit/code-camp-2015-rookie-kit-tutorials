@@ -5,17 +5,17 @@
 
 ## Documentation
 
-*	[client_pygame/config.py](other/client_pygame/config.md)
-*	[client_pygame/control/control.py](other/client_pygame/control.md)
-*	[client_pygame/display/display.py](other/client_pygame/display.md)
-*	[common/object.py](other/common/object.md)
-*	[common/player.py](other/common/player.md)
-*	[common/missile.py](other/common/missile.md)
-*	[common/event.py](other/common/event.md)
-*	[common/npc.py](other/common/npc.md)
-*	[common/wall.py](other/common/wall.md)
-*	[engine&#95;client/game&#95;engine.py](other/engine_client/game_engine.md)
-*	[engine_server/config.py](other/engine_server/config.md)
+*	[config.py](other/client_pygame/config.md)
+*	[control/control.py](other/client_pygame/control.md)
+*	[display/display.py](other/client_pygame/display.md)
+*	[tps/common/object.py](other/common/object.md)
+*	[tps/common/player.py](other/common/player.md)
+*	[tps/common/missile.py](other/common/missile.md)
+*	[tps/common/event.py](other/common/event.md)
+*	[tps/common/npc.py](other/common/npc.md)
+*	[tps/common/wall.py](other/common/wall.md)
+*	[tps/engine&#95;client/game&#95;engine.py](other/engine_client/game_engine.md)
+*	[tps/engine_server/config.py](other/engine_server/config.md)
 
 
 ## Controls

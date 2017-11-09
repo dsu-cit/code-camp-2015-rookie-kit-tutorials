@@ -1,4 +1,4 @@
-# File: common/wall.py
+# File: tps/common/wall.py
 
 There are can be many wall objects in the game.
 Walls do not move and can not be destroyed.

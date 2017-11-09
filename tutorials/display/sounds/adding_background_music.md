@@ -8,7 +8,7 @@ Music is added and controlled using [pygame.mixer.music](http://pygame.org/docs/
 	pygame.mixer.music.load('path_to_ogg_music_file')
 	pygame.mixer.music.play()
 
-I called the above code in my `Display.__init__()` method in *client_pygame > display > display.py*. There are several other features supported in the [pygame.mixer.music](http://pygame.org/docs/ref/music.html#module-pygame.mixer.music) module for setting the volume, queuing multiple songs, stopping, rewinding, pausing, and much more to fit your needs.
+I called the above code in my `Display.__init__()` method in *display > display.py*. There are several other features supported in the [pygame.mixer.music](http://pygame.org/docs/ref/music.html#module-pygame.mixer.music) module for setting the volume, queuing multiple songs, stopping, rewinding, pausing, and much more to fit your needs.
 
 If you simply want to loop your music then call the `play()` method from the code above like this.
 

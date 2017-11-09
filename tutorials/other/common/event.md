@@ -1,4 +1,4 @@
-# File: common/event.py
+# File: tps/common/event.py
 
 *You should not change this file.*
 

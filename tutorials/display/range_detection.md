@@ -4,7 +4,7 @@ A very simple but useful display for you game is adding a simple circle around e
 
 ![Range Detection](../../assets/images/range_detection.png)
 
-To do this you need to open up the display.py file located at *client_pygame > display > display.py* and modify the `paint_player()` method.
+To do this you need to open up the display.py file located at *display > display.py* and modify the `paint_player()` method.
 
 ### 1. Get the center point of the player
 

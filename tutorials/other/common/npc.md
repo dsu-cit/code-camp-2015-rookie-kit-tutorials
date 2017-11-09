@@ -1,4 +1,4 @@
-# File: common/npc.py
+# File: tps/common/npc.py
 
 There are can be many NPC objects in the game. New NPC
 objects will regenerate after each one dies.

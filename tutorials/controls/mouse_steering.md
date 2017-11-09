@@ -14,7 +14,7 @@ We will need to calculate the angle in degrees from our player to the mouse posi
 
 ## Implementation
 
-We will implement the following code from above in the `game_input_control` method in *client_pygame > control > controls.py* file.
+We will implement the following code from above in the `game_input_control` method in *control > controls.py* file.
 
 ### 1. Retrieve your the player's current position (x1,y1)
 

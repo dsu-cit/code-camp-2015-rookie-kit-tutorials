@@ -1,4 +1,4 @@
-# File: common/object.py
+# File: tps/common/object.py
 
 All parts in the game are objects.  This includes
 [player](player.md)s, [npc](npc.md)s, [missile](missile.md)s, and [wall](wall.md)s.  That means

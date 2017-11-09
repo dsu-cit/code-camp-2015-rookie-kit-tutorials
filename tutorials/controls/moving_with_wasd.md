@@ -2,7 +2,7 @@
 
 In most games the player's movement is controlled with W, A, S, and D instead of the UP, LEFT, DOWN, and RIGHT arrow keys. The reason for this is it frees up your right hand so you can add another method of control. It makes it so you can easily hit the spacebar while moving your player to fire a bullet or jump (usually).
 
-We can easily implement this by updating our `game_input_controls` method in the *client_pygame > control > control.py* file.
+We can easily implement this by updating our `game_input_controls` method in the *control > control.py* file.
 
 I started by deleting all the default controls except the `pygame.K_SPACE` which fires the missile when you hit the spacebar, and the `pygame.K_i` key which toggles the game information on and off when you hit the letter i. **You might want to comment out all of the code rather than deleting it so you can come back later and use it as a reference.**
 

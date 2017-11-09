@@ -1,6 +1,6 @@
 ## Handling Multiple Sound Instances
 
-Since pygame requires you to store the sound object to trigger its play() method, it is easy to make the mistake of storing redundant sound instances. You can easily create a sound_library in to store and manage sound instances. I added the following method to my `Display` class located in *client_pygame > display > display.py*. Make sure you add a class variable `self.sound_library = {}` to the `__init__()` method or your program will crash. You also need to import the `os` module `import os`
+Since pygame requires you to store the sound object to trigger its play() method, it is easy to make the mistake of storing redundant sound instances. You can easily create a sound_library in to store and manage sound instances. I added the following method to my `Display` class located in *display > display.py*. Make sure you add a class variable `self.sound_library = {}` to the `__init__()` method or your program will crash. You also need to import the `os` module `import os`
 
 I created a *sounds* folder in my *client_pygame > display* folder and stored all my sound files in there. I used the [os.path.join](https://docs.python.org/2/library/os.path.html#os.path.join) python function to the correct path to the file so my code will work on every operating system. I also used the [os.path.isfile](https://docs.python.org/2/library/os.path.html#os.path.isfile) function to verify my file existed so avoid having my program crash.
 

@@ -1,4 +1,4 @@
-# File: client_pygame/config.py
+# File: config.py
 
 This file contains initial settings for your game. All variables created in this file are available as Global variables. You do not have to add any additional variables, but might want to depending on the needs of your game client. Below is a description of the default variables in this file.
 

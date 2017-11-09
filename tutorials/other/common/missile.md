@@ -1,4 +1,4 @@
-# File: common/missile.py
+# File: tps/common/missile.py
 
 There are can be many missile objects in the game, depending
 on how many shots the players are taking.  
