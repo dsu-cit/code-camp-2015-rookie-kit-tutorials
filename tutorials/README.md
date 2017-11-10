@@ -40,6 +40,9 @@
 *	[Rotating an image](display/images/rotating_an_image.md)
 *	[Handling Several Image Instances](display/images/handling_several_images.md)
 
+### Event Handling
+
+*	[Play sound when missile fires](display/events/missile_fire_event_sound.md)
 
 ### Other
 
